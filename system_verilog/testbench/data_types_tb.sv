@@ -26,6 +26,7 @@ static array:
     bit [2:0][3:0][7:0]mm_x; => mm_x[0,1,2]=32'habcd_abcd
 
 - unpacked array
+    logic [31:0]FIFO[0:DEPTH-1];
     byte stack[8];
     byte stack[2][4]; 2 rows 4 col
     byte [3:0][7:0]stack[2][4];
@@ -43,9 +44,6 @@ associative array:
         arr = new[2]
         arr[0] = '{"ab":1, "cd":2};
         arr[1] = '{"ab":1, "cd":2};
-    
-
-
 */
 
 
@@ -111,7 +109,7 @@ $display("res: %p",res);
 
 unbounded_q = {1,2,3};
 // unbounded_q[1:2] supports slicing [1:$] till end]
-// unbounded_q.size(), pop_front(), pop_back(), push_front(i), pop_back(i)
+// unbounded_q.size(), pop_front(), pop_back(), push_front(i), push_back(i)
 // class_name q[$]; class_name f = new(); q.push_back()
 
 end
