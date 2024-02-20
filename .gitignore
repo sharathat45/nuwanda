@@ -1,0 +1,74 @@
+./system_verilog/testbench/mods/interviews/*
+
+# Ignore compiled files
+*.vcd
+*.vpd
+*.vpp
+*.vstf
+*.wlf
+
+# Ignore simulation output files
+*.log
+*.fsdb
+*.shm
+*.history
+
+# Ignore synthesis output files
+*.svf
+*.sdf
+*.sdo
+*.sdo.cmd
+*.sdo.log
+*.sdo.summary
+
+# Ignore waveform files
+*.wdb
+*.trn
+*.dsn
+*.dsnrc
+
+# Ignore coverage files
+*.ucdb
+*.cov
+*.dat
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore generated files
+generated/
+
+
+# CPP
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# Build directories
+build/
+bin/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Dependency directories
+lib/
+vendor/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
