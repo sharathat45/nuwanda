@@ -110,7 +110,7 @@ $display("res: %p",res);
 unbounded_q = {1,2,3};
 // unbounded_q[1:2] supports slicing [1:$] till end]
 // unbounded_q.size(), pop_front(), pop_back(), push_front(i), push_back(i)
-// class_name q[$]; class_name f = new(); q.push_back()
+// class_name q[$]; class_name f = new(); q.push_back(f)
 
 end
 

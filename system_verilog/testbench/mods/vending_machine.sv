@@ -1,6 +1,6 @@
 module vending_machine(
     input clk, rst,
-    input [1:0]coin,
+    input logic [1:0]coin,
     output logic candy
 );
 

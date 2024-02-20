@@ -143,7 +143,8 @@ initial begin
 end
 
 mailbox mbx;
-/*mbx = new(num of msgs); mbx.put(msg), try_put(msg), get(msg_handler), try_get(msg_handler)
+/*
+mbx = new(num of msgs); mbx.put(msg), try_put(msg), get(msg_handler), try_get(msg_handler)
 num() - returns number of messages in mailbox
 peek(), try_peek() - copies withourt removing from the mailbox
 mailbox #(string) mbx; - holds string type
