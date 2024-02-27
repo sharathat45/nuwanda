@@ -1,4 +1,6 @@
 ./system_verilog/testbench/mods/interviews/*
+./c_264/*
+./UVM/*
 
 # Ignore compiled files
 *.vcd

@@ -1,4 +1,4 @@
-BASE_NAME = fib
+BASE_NAME = mods/interviews/fib
 EXECUTABLE = $(BASE_NAME)
 SRC_TB = $(BASE_NAME)_tb.sv
 SRC_C = $(BASE_NAME).sv

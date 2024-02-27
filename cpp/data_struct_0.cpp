@@ -28,6 +28,20 @@ int main(){
     char str3[7] = {'a','b','c','d','e','f','\0'};
     cin.get(str3,7);
     str = str + to_string(12);
+    // str = str1 + str2;
+
+    str.substr(0,2); // returns "ab"
+    str.push_back('i');
+    // str(vec.begin(),vec.end());
+
+    // str.find(ch) != string::npos
+
+    auto vowel = [](char c)
+    {
+        string v = "aeiou";
+        return v.find(c) != string::npos;
+    };
+    cout << vowel('i') << endl;
 
     // #include <cstring>
     // strlen();

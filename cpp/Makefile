@@ -1,5 +1,5 @@
 # data_struct_2 OOP_2
-BASE_NAME = algo
+BASE_NAME = try
 EXECUTABLE = $(BASE_NAME)
 SRC_C = $(BASE_NAME).cpp
 SRC_H = $(BASE_NAME).h
